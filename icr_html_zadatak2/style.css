@@ -1,0 +1,441 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+main{
+    height: 100vh;
+}
+
+.bg{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    border-radius: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: linear-gradient(119.81deg, #E7F8FE 54.58%, #F8FCFE 71.32%);;
+}
+
+.bg-primary{
+    background-color: #F8FCFE !important;
+}
+.bg-secondary{
+    background-color: rgba(4, 108, 142, .7) !important;
+}
+
+.nav-link, .navbar-brand{
+    color: #1A5F7A !important;
+    font-weight: 600;
+    margin-left: .75rem;
+    margin-right: .75rem;
+    font-size: 18px;
+    flex-grow: 1 !important;
+}
+.navbar-brand{
+    font-size: 20px;
+}
+
+.my-nav{
+    flex-grow: 1 !important;
+}
+h1,h2,h3{
+    font-weight: 700;
+    color: #002B5B;
+}
+p{
+    color: #002B5B;
+}
+h1{
+    background: linear-gradient(90.74deg, #00BEFF 17.72%, #57C5B6 92.22%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+
+}
+
+.card{
+    width: 288px;
+    min-height: 343px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .05);
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+.top-border{
+    height: 64px;
+    position: relative;
+    background: #00B1D6;
+    /* background: linear-gradient(90.74deg, #00BEFF 17.72%, #57C5B6 92.22%); */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.top-border-business{
+    height: 80px;
+}
+.top-border-business h3{
+    color: #fff;
+}
+.svg-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 96px;
+}
+.svg-icon img{
+    margin: auto 0;
+    filter: brightness(0) invert(1);
+    width: 64px;
+    height: 64px;
+}
+
+.circle{
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 16px;
+    width: 96px;
+    height: 96px;
+    background: #00B1D6;
+    /* background: linear-gradient(90.74deg, #00BEFF 17.72%, #57C5B6 92.22%); */
+}
+.special{
+    background: linear-gradient(90.74deg, #00BEFF 17.72%, #57C5B6 92.22%);
+}
+.web-junior{
+    background: #09C1F9;
+}
+.web-medior{
+    background: #53DECB;
+}
+.web-senior{
+    background: linear-gradient(104.52deg, #00BEFF -0.94%, #53DECB 89.49%);
+}
+.main-ponuda{
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+.star-left{
+    position: relative;
+    width: 2rem;
+    top: 10px;
+    z-index: 1;
+}
+.star-middle{
+    position: relative;
+    width: 2rem;
+    z-index: 1;
+}
+.star-right{
+    position: relative;
+    top: 10px;
+    width: 2rem;
+    z-index: 1;
+}
+
+.large{
+    width: 2.5rem;
+}
+#smaller-icon-s{
+    width: 48px;
+    height: 48px;
+}
+#smaller-icon-m{
+    width: 48px;
+    height: 48px;
+}
+#smaller-icon-j{
+    width: 48px;
+    height: 48px;
+}
+
+.business-junior{
+    height: 80px;
+    background: #09C1F9;
+}
+.business-medior{
+    height: 80px;
+    background: #53DECB;
+}
+.business-medior h3, .business-junior h3, .business-senior h3{
+    color: #fff;
+}
+.business-senior{
+    height: 80px;
+    background: linear-gradient(104.52deg, #00BEFF -0.94%, #53DECB 89.49%);
+}
+.btn-primary{
+    background: #7AB742 !important;
+    border: 3px solid #7AB742 !important;
+    color: #fff !important;
+
+    font-weight: 500;
+    padding: 10px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+}
+.btn-primary:hover{
+    background: #fff !important;
+    color: #7AB742 !important;
+}
+
+.btn-secondary{
+  background: 
+    linear-gradient(#fff 0 0) padding-box, 
+    linear-gradient(#7AB742, #7AB742);
+
+    font-weight: 500;
+    color: #7AB742;
+    padding: 10px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.btn-secondary:hover{
+    background: #7AB742 !important;
+    border: 3px solid #7AB742;
+    color: #fff !important;
+}
+.btn-special{
+    background:
+        linear-gradient(#fff 0 0) padding-box, /*this is your grey background*/
+        linear-gradient(90.74deg, #00BEFF 50%, #57C5B6 50%);
+}
+.cont-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    place-items: center;
+}
+.cont-wrapper-web{
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+.cont-wrapper-business{
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.junior-card{
+    width: 260px;
+}
+.senior-card{
+    z-index: 2;
+    width: 260px;
+    position: relative;
+    bottom: 120px;
+}
+.medior-card{
+    position: relative;
+    width: 260px;
+    bottom: 40px;
+}
+.medior-card-business{
+    position: relative;
+}
+.senior-card-business{
+    z-index: 2;
+    position: relative;
+    bottom: 80px;
+}
+.junior-card-business{
+}
+
+
+table, tbody{
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 420px;
+    background-color: #CFFFA3;
+}
+td{
+    padding: .75rem;
+    border: 1px solid #fff;
+    font-weight: 500;
+    min-width: 100px;
+    font-size: 20px;
+}
+
+.tejbl{
+    position: relative;
+}
+.signal{
+    position: absolute;
+    right: 0;
+    bottom: -32px;
+    z-index: 1;
+}
+.oval{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    border-radius: 50%;
+    left: 80px;
+    bottom: -48px;
+    background-color: RGBA(0, 43, 91, .5);
+    z-index: -1;
+}
+
+table tr:first-child td:first-child {
+    border-top-left-radius: 10px;
+}
+    
+table tr:first-child td:last-child {
+    border-top-right-radius: 10px;
+}
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+    
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+.name{
+    font-weight: 700;
+    font-size: 24px;
+}
+.top-level{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.top-level h2{
+    color: #fff;
+}
+.top-level p{
+    color: #fff;
+}
+.my-input{
+    width: 100%;
+    height: 44px;
+    border: 1px solid rgba(0, 177, 214, .7);
+    border-radius: 10px;
+}
+.kontakt-form{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #E7F8FE;
+}
+.kontakt-form .row{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.big-input{
+    height: 108px;
+}
+
+
+footer{
+    /* position: absolute; */
+    width: 100%;
+    /* height: 250px; */
+    background: #4E98B0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    z-index: 999;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5{
+    color: #fff;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+}
+.foot h4, .foot p{
+    color: #fff;
+    /* padding: 0; */
+}
+.foot img{
+    width: 32px;
+}
+.foot div{
+    text-align: left;
+    /* padding: 0; */
+    /* width: 200px; */
+}
+.divider{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #fff;
+}
+
+@media screen and (max-width: 1400px){
+    .signal{
+        right: -20px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .web-hosting-cont{
+        width: 100%;
+    }
+    .senior-card, .medior-card, .junior-card, .senior-card-business, .junior-card-business, .medior-card-business{
+        bottom: auto;
+    }
+
+    .signal{
+        left: -270px;
+    }
+}
+@media screen and (max-width: 920px){
+    .left-cont-domene{
+        text-align: center;
+        width: auto;
+    }
+    .right-cont-domene{
+        width: auto;
+        margin: 0 auto;
+    }
+    .right-kontakt{
+        text-align: center;
+        width: auto;
+    }
+    .left-kontakt{
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .signal{
+        display: none;
+    }
+}
+@media screen and (max-width: 430px){
+    table{
+        width: auto;
+    }
+}
+@media screen and (max-width: 550px){
+    .hero-right{
+        display: none;
+    }
+    .hero-left{
+        text-align: center;
+        width: 100%;
+    }
+    .oval{
+        width: 200px;
+        left: 40px
+    }
+}
+
+
